@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 
 # Load trained model
-with open('/Users/rubaka/idaourproject/addiction_model_pkl', 'rb') as file:
+with open('addiction_model_pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Mapping from options to values
